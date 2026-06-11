@@ -5,7 +5,7 @@ project(reverse_shell C)
 set(CMAKE_C_STANDARD 99)
 
 add_executable(reverse_shell
-        port_listener/reverseShell.c
+        reverseShell/reverseShell.c
 )
 
 add_executable(listener
